@@ -17,3 +17,11 @@ Yooo!!! so it's the Day 1 and I have started making this ultimate Survival tool!
 ![c0a24458-151c-4f92-b0a6-361d1b4b6417.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTI4LCJwdXIiOiJibG9iX2lkIn19--4cd800cfa603075731c0e6d7b87ae7111d46d0c5/c0a24458-151c-4f92-b0a6-361d1b4b6417.jpg)
   
 
+## 10/12/2025 - Day-2! Progress!!  
+
+So I did the USB Type-C power input connection today for my ESP. I took help from the 'Custom Devboard' guide and the ESP32 datasheet for this, but I can't figure out where to connect the D+ and D- pins! but don't worry, I'll do something for them! Take a look at the Schematic now:-
+
+
+![IMG-20251012-WA0011.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc2MiwicHVyIjoiYmxvYl9pZCJ9fQ==--6d48c73bcf384b597db7af23e77805cd13b2c67a/IMG-20251012-WA0011.jpg)
+  
+
