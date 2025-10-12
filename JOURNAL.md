@@ -17,11 +17,19 @@ Yooo!!! so it's the Day 1 and I have started making this ultimate Survival tool!
 ![c0a24458-151c-4f92-b0a6-361d1b4b6417.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTI4LCJwdXIiOiJibG9iX2lkIn19--4cd800cfa603075731c0e6d7b87ae7111d46d0c5/c0a24458-151c-4f92-b0a6-361d1b4b6417.jpg)
   
 
-## 10/12/2025 - Day-2! Progress!!  
+## 10/12/2025 11:51 AM - Day-2! Progress!!  
 
 So I did the USB Type-C power input connection today for my ESP. I took help from the 'Custom Devboard' guide and the ESP32 datasheet for this, but I can't figure out where to connect the D+ and D- pins! but don't worry, I'll do something for them! Take a look at the Schematic now:-
 
 
 ![IMG-20251012-WA0011.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc2MiwicHVyIjoiYmxvYl9pZCJ9fQ==--6d48c73bcf384b597db7af23e77805cd13b2c67a/IMG-20251012-WA0011.jpg)
+  
+
+## 10/12/2025 11:53 AM - Day-3! Even more progress!!!  
+
+Yeah! You see the schematic, it doesn't look like a day 3 schematic but yeah, it is! So today I tried to search for the Load sensors, but couldn't find any SMD one, so I will think upon it. I also tried to figure out that D+ and D- pin thingy, but couldn't come to any conclusion. So I asked for it on #electronics. I hope to get some answers on that. The major thing done today is the connection for BME280 sensor!!! Yeah, it's a great achievement for me!:-
+
+![IMG-20251012-WA0012.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTc2MywicHVyIjoiYmxvYl9pZCJ9fQ==--6efa2e2257b4dfdbeb3cbd51ef222915574f9716/IMG-20251012-WA0012.jpg)
+
   
 
