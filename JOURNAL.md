@@ -33,3 +33,10 @@ Yeah! You see the schematic, it doesn't look like a day 3 schematic but yeah, it
 
   
 
+## 10/14/2025 - Day 4! Done with the USB-to-UART thing!!!  
+
+I did it! One of my friend (Teammate in another project) told me that I had to use the USB to UART feature for the transmission of Data between the MCU and the coding Device via the Type-C port. After this, my D+ and D- problem came to an end, and I used the CP2102 USB-to-UART converter for this (As my friend suggested this). I also kinda engulfed some stuff inside those boxes for my schematic to look more systematic and organized (and yeah, cooler!). Look at the schematic now:- 
+
+![500620836-a826398f-7655-4df7-a6cd-6a742e65eda4.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjIwNCwicHVyIjoiYmxvYl9pZCJ9fQ==--3dbc1d686da76218a2b73cf8e9bc95e21d4b0235/500620836-a826398f-7655-4df7-a6cd-6a742e65eda4.png)
+  
+
