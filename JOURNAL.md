@@ -46,3 +46,10 @@ Yooo!!! So today I was just searching for Load sensors on LCSC, and I found one 
 ![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/ab6c6c994a11511a03240b4e82923cd2f86be3ee_screenshot_2025-10-14_215939.png)
   
 
+## 10/15/2025 - Day 6! Added a COMPASS!!!  
+
+Hi Guyzzz!!!, so today I did much work. You can see that the load sensor is done in the schematic, well It was the most difficult part of the schematic! But wait! is there something called the 'Magnetic Field Sensing Unit' in the schematic??? Well, YEAH IT IS!!! I have added a very small 2*2mm compass kinda thing to my schematic, and yeah it is cool. This would be used for navvigation.
+
+![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/6bcc84866bcb77442a67ac3852ba5b5f64eeaaed_image.png)
+  
+
