@@ -53,3 +53,8 @@ Hi Guyzzz!!!, so today I did much work. You can see that the load sensor is done
 ![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/6bcc84866bcb77442a67ac3852ba5b5f64eeaaed_image.png)
   
 
+## 10/17/2025 - Day 7! Added the SCREEN!!!  
+
+Well today I searched up the whole internet just to find a good GPS and a display for my purpose, but unfortunately I wasn't able to find the GPS, but I found the Display! It is the EA_DOGS164W-A. I did all the Display connections, but the footprint is yet to be added, I'll think upon the GPS thingy later on... Well the schematic looks like this for now!
+![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/de8a1415bf3b56020f5001308aa6e438b8373d42_screenshot_2025-10-17_232123.png)  
+
