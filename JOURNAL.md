@@ -58,3 +58,9 @@ Hi Guyzzz!!!, so today I did much work. You can see that the load sensor is done
 Well today I searched up the whole internet just to find a good GPS and a display for my purpose, but unfortunately I wasn't able to find the GPS, but I found the Display! It is the EA_DOGS164W-A. I did all the Display connections, but the footprint is yet to be added, I'll think upon the GPS thingy later on... Well the schematic looks like this for now!
 ![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/de8a1415bf3b56020f5001308aa6e438b8373d42_screenshot_2025-10-17_232123.png)  
 
+## 10/18/2025 - Day 8! Display Changed!!!  
+
+Yooo! so I kinda changed the Screen. Yeah, I kinda didn't like that one, so I chose this one and I have this from Digikey. Now I have to order from both LCSC and digikey!!! This means that double shipping fee! But there was no option LCSC just had only 4-5 screens, and those were also not good, so I had to do this. Well the screen's symbol looks like this:-
+![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/9c629d21daf00a14c840a8dda2de190e2534f052_screenshot_2025-10-18_145207.png)
+  
+
