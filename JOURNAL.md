@@ -64,3 +64,9 @@ Yooo! so I kinda changed the Screen. Yeah, I kinda didn't like that one, so I ch
 ![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/9c629d21daf00a14c840a8dda2de190e2534f052_screenshot_2025-10-18_145207.png)
   
 
+## 10/19/2025 - Day 9! Some Planning Stuff!!!  
+
+Yoo there! so motivation increased after peeking into the TOOLBAG!!! So yeah, I worked during my holidays,even when I'm 800 Km away from my laptop. Yeah, kinda hard working boy!👷‍♂️👷‍♂️. So here is something called the Surevuval Plan (maybe survival plan too). It has a cool SUREVIVAL logo! (designed by me) and it all tells about the current model of the project as well as the future ones. Don't forget to take a quick look at thi thing which tood more than 30 min to be made!
+
+![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/ece2b9c9a192850b3b201dd8bbc240aa7b9396f0_20251019_165718.jpg)  
+
