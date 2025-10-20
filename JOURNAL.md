@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **The Surevival**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/210).
-
-
 ## 10/7/2025 - Day 1! Let's Begin!!!  
 
 Yooo!!! so it's the Day 1 and I have started making this ultimate Survival tool! I have decided the ESP32 as the MCU. I also have a few other components in my mind, like BME280, load sensors etc. I have started making a schematic on KiCad and have already added the ESP32 in it. I thought that the ESP32-S3 was not available in LCSC, but I found ESP32-WROOM-32E-N4 in stock on LCSC! I changed the MCU with it and I also added a BME280 to the schematic. Take a look at the schematic:-
@@ -69,4 +65,10 @@ Yooo! so I kinda changed the Screen. Yeah, I kinda didn't like that one, so I ch
 Yoo there! so motivation increased after peeking into the TOOLBAG!!! So yeah, I worked during my holidays,even when I'm 800 Km away from my laptop. Yeah, kinda hard working boy!👷‍♂️👷‍♂️. So here is something called the Surevuval Plan (maybe survival plan too). It has a cool SUREVIVAL logo! (designed by me) and it all tells about the current model of the project as well as the future ones. Don't forget to take a quick look at thi thing which tood more than 30 min to be made!
 
 ![image.png](//hc-cdn.hel1.your-objectstorage.com/s/v3/ece2b9c9a192850b3b201dd8bbc240aa7b9396f0_20251019_165718.jpg)  
+
+## 10/20/2025 - Day 10! Watched a bit TUTORIALS!!!  
+
+Happy Diwali To All!!! It's kinda biggest festival celebrated in India! So today I watched a bit tutorials on YouTube about the ESP 32 chip and a few of it's peripherals. I wonder what could be the i.age for today!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/85367e6b5a875c0a2d6495107857e2c70424e337_caa3cad3e9bb986796f547e0309e8024.jpg)  
 
