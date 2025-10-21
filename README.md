@@ -10,6 +10,9 @@ So this is gonna be a project on a PCB, whose parts are to be ordered via LCSC a
 
 <h2>FEATURES ⚡️</h2>
 1) GPS Tracking 
+<br>
 2) No. of Survival Dayzzz prediction using food! (My favorite)
+<br>
 3) Compass
+<br>
 4) Screen!!!
