@@ -72,3 +72,9 @@ Happy Diwali To All!!! It's kinda biggest festival celebrated in India! So today
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/85367e6b5a875c0a2d6495107857e2c70424e337_caa3cad3e9bb986796f547e0309e8024.jpg)  
 
+## 10/21/2025 - Day 11! Edited the README.md!!!  
+
+So today I did some changes in the README.md, cause I needed my project to be a tier 1, so this has to be there for polishing it and it took quite a lot of time!!!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/5e010132747b241b61084c1cf892efc85e5b26eb_sc.jpeg)  
+
