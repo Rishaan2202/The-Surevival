@@ -78,3 +78,16 @@ So today I did some changes in the README.md, cause I needed my project to be a 
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/5e010132747b241b61084c1cf892efc85e5b26eb_sc.jpeg)  
 
+## 10/26/2025 - Day 12! So here's #ThePlan!!!  
+
+I kinda made a plan, yeah I'm kinda used to make plans after making much of the schematic! ik that's not good, but josh doesn't come with asking! I have decided that I'll be making more than one versions of 'The Surevival'. This is the version 0 (v0) with the least features, which are:-
+
+1) GPS Tracking
+2) Estimated lasting of Food and H2O!
+3) SurvivO'meter (Kinda prediction of no. of Survival dayzzz!!!
+
+Yeah, ik I revised them, but this was to be done as I am making another project parallely, pls understand the burdening me!!!
+
+Here's the historic #ThePlan-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/525b4bc19e8b9c155f251b6909e72a6711eca4ac_sc.jpeg)  
+
