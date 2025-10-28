@@ -91,3 +91,26 @@ Yeah, ik I revised them, but this was to be done as I am making another project 
 Here's the historic #ThePlan-
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/525b4bc19e8b9c155f251b6909e72a6711eca4ac_sc.jpeg)  
 
+## 10/28/2025 - Day 13! DONE with the SCHEMATIC!!!  
+
+Yeah!!! So I completed the SCHEMATIC! Hooray! (Nearly 4h work). IDTS that I should be this much happy, but I have completed the schematic within just 13th day of my building! This is a big achievement for me. btw, I also took a harsh decision! And it is that I am gonna use the GPS Neo 6M module and gonna hand solder it, as it is kinda difficult for me design the RF thingy on my board for the antennas myself! I also came to know that the GPS used the UART interphase, which let me add the weather monitoring sensor (BME280) onto my board again! Well I also made the schematic look good by sophisticating and arranging all the stuff and also made the values of each component on my Schematic visible, which I hid before, cause I thought that it was ruining the look of my Schematic, but now I came to know that 'Understandability' is also a factor which shouldn't be ignored by me!!! Now take a look at the Schematic:-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/c71de515c4606fae2b42ab9a1fd580b86878bc5d_image.png)
+
+
+It has been divided into 3 sub-parts, The first one is all the Power related stuff including the battery and it's charger:-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/f0a4fb21f6c1e59955443a5fc74bbed5b4894cb7_screenshot_2025-10-28_181624.png)
+
+
+The second part is of the MCU:-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/f9f115c303f1eb8b521d512703409dbadf30b689_screenshot_2025-10-28_181846.png)
+
+
+And the last is the main thing which contains all the sensors:-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/96cf56c343eeec4c468cd494c26d5513ed31db20_screenshot_2025-10-28_182106.png)
+
+
+I hope you liked the schematic, I also asked for review for this an #blueprint on slack! and got some very helpful replies like absence of pull ups for I2C, See this:-
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/b3e2d03d7c3e007232790dcbe210e23c6048fbcd_image.png)
+
+  
+
