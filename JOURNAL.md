@@ -114,3 +114,9 @@ I hope you liked the schematic, I also asked for review for this an #blueprint o
 
   
 
+## 10/29/2025 - Day 14! THE FAILURE DAY!!!  
+
+Well, today!!! tbh, it was really non-frustating, interesting and hopeful day! (SARCASM ALERT!!!) I kinda did the footprint of all the components except the Switches and buttons (Yeah I kinda added them today cause they were missing!). I was able to find a good switch for me after so much time, but I didn't have access to its EDA models of KiCad version. I was very tired, but I didn't lose hope! (That's the Spirit). Then I thought to try EasyEDA2KiCad! So, I saw the guide on the Highway website and, IT BLEW MY MIND!!! Bro! I'm not a software guy. So, then I kinda wasted my entire left time arguing with Chat GPT! I also got my cmd full of errors! And yeah Terminal too! So, I thought, that LET'S RETIRE FOR THE DAY!!!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/dc79079cbbabc98ea0e0b3eb486e07876c7fcbb4_screenshot_2025-10-29_232848.png)  
+
