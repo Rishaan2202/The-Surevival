@@ -120,3 +120,13 @@ Well, today!!! tbh, it was really non-frustating, interesting and hopeful day! (
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/dc79079cbbabc98ea0e0b3eb486e07876c7fcbb4_screenshot_2025-10-29_232848.png)  
 
+## 10/30/2025 - Day 15! Finally STARTED THE PCB!!!  
+
+So today I quickly attempted to find good switches, and yeah found them with their footprints and symbols (Feels like HEAVEN)! I added two pushbuttons connected to 2 GPIOs which would indicate any answer of the user for the thing asked on the screen (They are kinda YES/NO switches). Then, I quickly asked Chat GPT about a few pins on my ESP32 and then BOOM! SCHEMATIC-->PCB!!! At first, I saw something like this:-
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/179c53603d476a1189f068de6bf9dac3ae1bb563_screenshot_2025-10-30_173352.png)
+
+Then I thought to BLAST OFF this Battery holder and get a smaller battery, cause literally the Battery holder was bigger than the Entire PCB itself! So, I kept it aside and did the Input stuff and here's the result!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/fac483eb76e254c9bdbd9db7960f25f6c8f97911_screenshot_2025-10-30_180113.png)  
+
