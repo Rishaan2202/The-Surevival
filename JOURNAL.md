@@ -130,3 +130,9 @@ Then I thought to BLAST OFF this Battery holder and get a smaller battery, cause
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/fac483eb76e254c9bdbd9db7960f25f6c8f97911_screenshot_2025-10-30_180113.png)  
 
+## 10/31/2025 - Day 16! ROUTING GUYZ!!!  
+
+Hmmm! idts that there is much to tell today, cause today I just ROUTED! Well I also got the 3D model of my ESP32 and could fix it on position after facing a GLITCH! (idk what happened, but the X and Y axis kinda did the same thing). Well, I have asked 'THE LEARNED PEOPLE' on slack to comment on my design on #electronics and am waiting for their helpful replies! Well here is the design which I showed them!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/59852353c0d50b8245c396b5893ee829c47d289c_image.png)  
+
