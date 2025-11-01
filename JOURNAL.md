@@ -136,7 +136,7 @@ Hmmm! idts that there is much to tell today, cause today I just ROUTED! Well I a
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/59852353c0d50b8245c396b5893ee829c47d289c_image.png)  
 
-## 11/1/2025 - Day 14! PCB DONE!!! (kinda)  
+## 11/1/2025 - Day 17! PCB DONE!!! (kinda)  
 
 Hi!!! Do you remember the routing that you saw in the yesterday's journal entry? It was not so cool ig. And I also thought that the project was also not planned properly, so today I did this:-
 
