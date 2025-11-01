@@ -136,3 +136,23 @@ Hmmm! idts that there is much to tell today, cause today I just ROUTED! Well I a
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/59852353c0d50b8245c396b5893ee829c47d289c_image.png)  
 
+## 11/1/2025 - Day 14! PCB DONE!!! (kinda)  
+
+Hi!!! Do you remember the routing that you saw in the yesterday's journal entry? It was not so cool ig. And I also thought that the project was also not planned properly, so today I did this:-
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/f93a8a10c6f5cc5c697edfcb48fa4cac73f2e5ea_objects__sizes_1.jpg)
+
+Yeah! I kinda drew the approx. sizes of all the components, so that I can decide how to place them. Now, see this:-
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/4bd9c37b7e200ca960cd4636d5a42732bb66fd62_whatsapp_image_2025-11-01_at_17.14.48_0eb44a50.jpg)
+
+This was supposed to be the placement of all the components! Wait!!! Did I just say 'WAS'? Yup, I did! While I was designing the PCB, I kinda changed the placement of a few components and then I routed mostly the whole PCB and finally here was the output!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/0981fcb5e374e85bf5bf1c2e2a3f83548873513d_image.png)
+
+And the thing which looks the best is yet to come, and that's the 3D MODEL!!!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/daf40a6cd1f262b878c533976f5a5dd32e364061_screenshot_2025-11-01_190949.png)
+
+The whole PCB is mostly done, just the thing which I need to add is that I need to add a connector for the battery and have to remove the switch which was connected to the MCU! So yeah, that's for today! Have a great day!!!  
+
