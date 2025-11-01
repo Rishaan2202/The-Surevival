@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/7/2025 - Day 1! Let's Begin!!!  
+## 10/7/2025 - Day 1! LET'S BEGIN!!!  
 
 Yooo!!! so it's the Day 1 and I have started making this ultimate Survival tool! I have decided the ESP32 as the MCU. I also have a few other components in my mind, like BME280, load sensors etc. I have started making a schematic on KiCad and have already added the ESP32 in it. I thought that the ESP32-S3 was not available in LCSC, but I found ESP32-WROOM-32E-N4 in stock on LCSC! I changed the MCU with it and I also added a BME280 to the schematic. Take a look at the schematic:-
 
