@@ -156,3 +156,9 @@ And the thing which looks the best is yet to come, and that's the 3D MODEL!!!
 
 The whole PCB is mostly done, just the thing which I need to add is that I need to add a connector for the battery and have to remove the switch which was connected to the MCU! So yeah, that's for today! Have a great day!!!  
 
+## 11/4/2025 - Day 18! Did the ROUTING of Diff. pairs!!!  
+
+Hiii all! So today was also kinda a normal day. I did the routing of the differential pairs, cause I came to know that the length of their traces MUST be LENGTH ALLINGNED!!! So I struggled the entire day and kinda ruined the traces near the Type C input! Then it took a lot of time of mine to fix it! I also tried to add some of the 3D models, but failed to do so due to my hectic schedule!!! I also changed the size of the PCB from 33cm*48cm to 35cm*50cm!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/2082744360baa9849aeab0df7814a04afd5b00e2_image.png)  
+
