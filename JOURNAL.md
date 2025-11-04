@@ -156,9 +156,23 @@ And the thing which looks the best is yet to come, and that's the 3D MODEL!!!
 
 The whole PCB is mostly done, just the thing which I need to add is that I need to add a connector for the battery and have to remove the switch which was connected to the MCU! So yeah, that's for today! Have a great day!!!  
 
-## 11/4/2025 - Day 18! Did the ROUTING of Diff. pairs!!!  
+## 11/4/2025 12 AM - Day 18! Did the ROUTING of Diff. pairs!!!  
 
 Hiii all! So today was also kinda a normal day. I did the routing of the differential pairs, cause I came to know that the length of their traces MUST be LENGTH ALLINGNED!!! So I struggled the entire day and kinda ruined the traces near the Type C input! Then it took a lot of time of mine to fix it! I also tried to add some of the 3D models, but failed to do so due to my hectic schedule!!! I also changed the size of the PCB from 33cm*48cm to 35cm*50cm!
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/2082744360baa9849aeab0df7814a04afd5b00e2_image.png)  
+
+## 11/4/2025 6 PM - Day 19! Started The BOM Thing!!!  
+
+Yeah!!! Finally I'm done with the PCB! Yeah you heard it right, it's done! I added the connector for my battery, did that diff. pair stuff and also removed one unnecessary switch! After this the PCB's done and here's the Final look! WAIT!!! I just remembered something! I forgot to add some cool text and images to the silkscreen! Well I'll do that later, It looks like this for now:-
+
+![image](hc-cdn.hel1.your-objectstorage.com/s/v3/5de155c3acce55ff48e46c4052ba4efcf6e2d41a_image.png)
+
+Well, adding 3D models is a time consuming thing, so I'll do that later. Here's the 3D thing of SUREVIVAL:-
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/02da67daaff5b75d534c5f1a7a34f52669c4ab1a_image.png)
+
+Wait! It isn't over yet, I also starter the BOM!!!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/e7c7374952989bbdb5a4c2543cd1ccc42abfe2e9_image.png)  
 
