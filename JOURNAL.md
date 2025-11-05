@@ -176,3 +176,11 @@ Wait! It isn't over yet, I also starter the BOM!!!
 
 ![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/e7c7374952989bbdb5a4c2543cd1ccc42abfe2e9_image.png)  
 
+## 11/5/2025 - Day 20! The SILKY DAY (Silkscreen work)!!!  
+
+OMG!!! Today, I just did the work for the looks of the PCB and did all the things just at the back layer (Cause front is kinda populated and chaotic!) I did a bit of designing (Finally! Something in which I'm good at!) with Canva, used the image converter of KiCad, and BOOM!!! Here is the Final output!
+
+![image](//hc-cdn.hel1.your-objectstorage.com/s/v3/71457a3f8e81bdec5895abb803ca647fb8939e6a_image.png)
+
+It looks SOOOOOOO COOL!!!  
+
