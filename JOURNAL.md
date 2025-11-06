@@ -184,3 +184,25 @@ OMG!!! Today, I just did the work for the looks of the PCB and did all the thing
 
 It looks SOOOOOOO COOL!!!  
 
+## 11/6/2025 - Day 21! 'NOT SO GOOD' day!!!  
+
+Guyzzz! Something BAD just happened. Lemme tell you. First I sat and started looking for some 3D models, after finding and placing a few of them. (Well the GPS is kinda upside down, let it be for now!)
+
+![Screenshot 2025-11-06 202535](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg3OSwicHVyIjoiYmxvYl9pZCJ9fQ==--80942c7dde3d660f5375a33582ca2d46286deb5a/Screenshot%202025-11-06%20202535.png)
+
+Then I started to finish my BOM (It took a quite lot of time)!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg4MCwicHVyIjoiYmxvYl9pZCJ9fQ==--a9142eba501a8cdf8a0899bc8c301f496b0758ab/image.png)
+
+Then I made my cart and reached the First step of ordering! (Ofc. I can't order cuz I don't have grant till now). I was shocked to see the price of the PCB! It was just $22.26 for one PCB inc. Shipping fee!!!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--0d36d8fc7448b9baf612293b0dca6a5bb887a38e/image.png)
+
+Then I did the JLCPCB thing from where I was getting the PCB for $2! I selected the PCBA option and then read each instruction and saw that min. PCBs required were 2! Then I changed my Cart in LCSC and did QUANTITY*2. I was shocked, cause I got $5 coupon!!! And the total for 2 PCBs was just $31.56!!!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODg3MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ed0c4d1009117ab9c30f42d11b3b378bb43b4fc0/image.png)
+
+Kinda crazy! right? But then came that 'Something BAD' thing! I saw that min. size of a PCB for PCBA was 70mm (Heavy Sob*∞)!!! I was kinda brocken from inside and am now waiting for the reply of other Hack clubbers on SLACK!!!
+
+  
+
