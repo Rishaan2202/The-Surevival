@@ -206,3 +206,17 @@ Kinda crazy! right? But then came that 'Something BAD' thing! I saw that min. si
 
   
 
+## 11/7/2025 - Day 22! The RUINING of my QUOTE!  
+
+Ughhh!!! It didn't go well! Today I changed the PCB from standard PCBA to Economic one. Then I became very happy and thought that I would rapidly reach be in the final part of ordering, but something really terrible happened!!! You might be wondering what? SO the thing is this:
+
+![Screenshot 2025-11-07 173706](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTEwNywicHVyIjoiYmxvYl9pZCJ9fQ==--3efd12b83701c93e71d5bb374568414f5a85cd4a/Screenshot%202025-11-07%20173706.png)
+
+2 parts are only available in STANDARD!!! You might think that2 components are not a great deal, I can change that easily, BUT see this too:
+
+![Screenshot 2025-11-07 181512](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTEwOCwicHVyIjoiYmxvYl9pZCJ9fQ==--a0e8421a3cf8d41f56a57a96fec8f72a51b014fd/Screenshot%202025-11-07%20181512.png)
+
+Those 2 components include the very MCU of the Board!!! I can't do all this again, so I've asked for help in Slack, let's see what the people would suggest me to do!!!
+ 
+   
+
