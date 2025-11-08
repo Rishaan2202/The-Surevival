@@ -220,3 +220,10 @@ Those 2 components include the very MCU of the Board!!! I can't do all this agai
  
    
 
+## 11/8/2025 - Day 23! The COMEBACK!!!  
+
+Today! I did all the connections of my new MCU!!! Yup, you heard it right, all the ones! Well except external crystal ig, as suggested by Chat GPT. I also removed the USB-UART thing, cause now I can directly connect D+ and D- to the MCU pins, thanks to my new MCU (ESP32-S3FN8)! So ig that might be enough for today, tmr I'll see the thing for the weather monitoring sensor. Huhhhh! What a difficult think building a PCB is!!!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTUwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--011cc78a12ae670395c3b61b1320666a95dae3c5/image.png)
+  
+
