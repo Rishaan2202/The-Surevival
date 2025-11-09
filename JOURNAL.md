@@ -227,3 +227,17 @@ Today! I did all the connections of my new MCU!!! Yup, you heard it right, all t
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTUwMiwicHVyIjoiYmxvYl9pZCJ9fQ==--011cc78a12ae670395c3b61b1320666a95dae3c5/image.png)
   
 
+## 11/9/2025 - Day 24! PCB, Again?  
+
+So today I did the new schematic with the new MCU and a new temp. and humidity sensor too! and it looks nice! (For now).
+
+![Screenshot 2025-11-09 184324](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--4fa76211d1a001fc646b26b671094a5a309ed46f/Screenshot%202025-11-09%20184324.png)
+
+I also started the PCB and saw that the new MCU is very small, YAY!!! But, no need to be happy, cause you also gotta see this:
+
+![Screenshot 2025-11-09 192215](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc0NSwicHVyIjoiYmxvYl9pZCJ9fQ==--e2fde7bbd87882d03ca9e7475c704ca8496cd722/Screenshot%202025-11-09%20192215.png)
+
+Yeah, I kinda messed the PCB part again! Now It would take 1-2 days more for the PCB to be completed. The BOM is already there, just need to change the MCU and the Temp. sensor in that, and then hopefully I can submit this thing!!!
+
+  
+
