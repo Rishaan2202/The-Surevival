@@ -19,6 +19,36 @@ So this is gonna be a project on a PCB, which is a PCBA (Yeah, cause I don't eve
 
 <h2>THE SCHEMATIC</h2>
 
+<img width="598" height="751" alt="image" src="https://github.com/user-attachments/assets/fcf8efd8-550c-46af-9daa-3785dc154e1f" />
+<br>
+<br>
+
+<h2>It consists of 4 units, and These units further contain subunits which are lister below:</h2>
+<br>
+<br>
+
+<h2>1) MCU!!!</h2>
+<br>
+<br>
+
+<h2>2) Power Management:</h2>
++ Input Processing Unit (IPU)
++ Buck-Boost converter
++ Battery Charging Unit (BCU)
+<br>
+<br>
+
+<h2>3) Peripherals:</h2>
++ Load Sensing Unit (Weight Sensor)
++ Switches (UI bro!)
++ GPS (ofc.)
++ Weather Monitoring Unit (WMU)
++ Display (OLED)
+<br>
+<br>
+
+<h2>4) Crystal!</h2>
+
 <h2>THE PCB</h2>
 
 <h2>THE 3D Look (My fav!)</h2>
