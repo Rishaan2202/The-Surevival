@@ -21,35 +21,37 @@ So this is gonna be a project on a PCB, which is a PCBA (Yeah, cause I don't eve
 
 <img width="598" height="751" alt="image" src="https://github.com/user-attachments/assets/fcf8efd8-550c-46af-9daa-3785dc154e1f" />
 <br>
+
+<h3>It consists of 4 units, and These units further contain subunits which are lister below:</h3>
 <br>
 
-<h2>It consists of 4 units, and These units further contain subunits which are lister below:</h2>
-<br>
-<br>
-
-<h2>1) MCU!!!</h2>
-<br>
+<h3>1) MCU!!! </h3>
 <br>
 
-<h2>2) Power Management:</h2>
-+ Input Processing Unit (IPU)
-+ Buck-Boost converter
-+ Battery Charging Unit (BCU)
-<br>
-<br>
-
-<h2>3) Peripherals:</h2>
-+ Load Sensing Unit (Weight Sensor)
-+ Switches (UI bro!)
-+ GPS (ofc.)
-+ Weather Monitoring Unit (WMU)
-+ Display (OLED)
-<br>
+<h3> 2) Power Management: </h3>
+- Input Processing Unit (IPU) <br>
+- Buck-Boost converter <br>
+- Battery Charging Unit (BCU)
 <br>
 
-<h2>4) Crystal!</h2>
+<h3> 3) Peripherals: </h3>
+-Load Sensing Unit (Weight Sensor) <br>
+- Switches (UI bro!) <br>
+- GPS (ofc.) <br>
+- Weather Monitoring Unit (WMU) <br>
+- Display (OLED)
+<br>
+
+<h3>4) Crystal!</h3>
+<br>
+
 
 <h2>THE PCB</h2>
+
+<img width="1413" height="699" alt="image" src="https://github.com/user-attachments/assets/f0921c19-9430-4656-9a41-febd91aad20b" />
+<br>
+
+<h3> idts that I need to explain a lot about the PCB, but yeah, I must compliment it's compactness, cause it's just 23mm*51mm </h3>
 
 <h2>THE 3D Look (My fav!)</h2>
 
