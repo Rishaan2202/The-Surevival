@@ -1,0 +1,324 @@
+#include <Wire.h>
+#include <HardwareSerial.h>
+
+// === PIN DEFINITIONS - UPDATE WITH YOUR ACTUAL CONNECTIONS ===
+
+// OLED Display (I2C)
+#define OLED_SDA     8  // Change if different
+#define OLED_SCL     9  // Change if different
+
+// GPS (UART1)  
+#define GPS_RX       16  // GPS TX -> ESP32 RX
+#define GPS_TX       17  // GPS RX -> ESP32 TX
+
+// Buttons
+#define ON_OFF_SWITCH 1  // Change if different
+#define BUTTON_1      34  // Change if different  
+#define BUTTON_2      35  // Change if different
+
+// HX711 Load Cell
+#define HX711_DOUT   33   // Change if different
+#define HX711_SCK    18   // Change if different
+
+// TMP1075 Temperature Sensor (I2C - same as OLED)
+// Uses address 0x48
+
+// =============================================================
+
+// System variables
+bool systemOn = false;
+int displayMode = 0; // 0: GPS, 1: Temperature, 2: Load, 3: System Status
+
+// GPS variables
+HardwareSerial GPSSerial(1);
+String gpsRawData = "";
+float latitude = 0;
+float longitude = 0;
+bool gpsFix = false;
+int satellites = 0;
+
+// HX711 variables
+long loadValue = 0;
+float loadWeight = 0;
+
+// Temperature variables
+float temperature = 0;
+
+void setup() {
+  Serial.begin(115200);
+  
+  // Initialize I2C
+  Wire.begin(OLED_SDA, OLED_SCL);
+  
+  // Initialize buttons
+  pinMode(ON_OFF_SWITCH, INPUT_PULLUP);
+  pinMode(BUTTON_1, INPUT_PULLUP);
+  pinMode(BUTTON_2, INPUT_PULLUP);
+  
+  // Initialize OLED
+  initOLED();
+  
+  // Initialize GPS
+  GPSSerial.begin(9600, SERIAL_8N1, GPS_RX, GPS_TX);
+  
+  // Initialize HX711
+  pinMode(HX711_DOUT, INPUT);
+  pinMode(HX711_SCK, OUTPUT);
+  
+  displayWelcomeScreen();
+}
+
+void loop() {
+  // Check ON/OFF switch
+  checkPowerSwitch();
+  
+  if (!systemOn) {
+    delay(100);
+    return;
+  }
+  
+  // Read all sensors
+  readGPS();
+  readTemperature();
+  readLoadCell();
+  
+  // Check button presses
+  checkButtons();
+  
+  // Update display
+  updateDisplay();
+  
+  delay(500); // Update twice per second
+}
+
+void checkPowerSwitch() {
+  if (digitalRead(ON_OFF_SWITCH) == LOW) {
+    delay(50); // Debounce
+    if (digitalRead(ON_OFF_SWITCH) == LOW) {
+      systemOn = !systemOn;
+      if (systemOn) {
+        displaySystemOn();
+      } else {
+        displaySystemOff();
+      }
+      while(digitalRead(ON_OFF_SWITCH) == LOW); // Wait for release
+    }
+  }
+}
+
+void checkButtons() {
+  // Button 1 - Change display mode
+  if (digitalRead(BUTTON_1) == LOW) {
+    delay(50);
+    if (digitalRead(BUTTON_1) == LOW) {
+      displayMode = (displayMode + 1) % 4;
+      while(digitalRead(BUTTON_1) == LOW); // Wait for release
+    }
+  }
+  
+  // Button 2 - Tare load cell (zero it)
+  if (digitalRead(BUTTON_2) == LOW) {
+    delay(50);
+    if (digitalRead(BUTTON_2) == LOW) {
+      tareLoadCell();
+      while(digitalRead(BUTTON_2) == LOW); // Wait for release
+    }
+  }
+}
+
+void readGPS() {
+  while (GPSSerial.available()) {
+    char c = GPSSerial.read();
+    
+    // Look for GGA sentence (Global Positioning System Fix Data)
+    if (c == '$') {
+      String sentence = GPSSerial.readStringUntil('\n');
+      
+      if (sentence.startsWith("GPGGA")) {
+        parseGPGGA(sentence);
+      }
+    }
+  }
+}
+
+void parseGPGGA(String sentence) {
+  // Simple GPS parsing - extract basic info
+  int parts[15];
+  int partIndex = 0;
+  String currentPart = "";
+  
+  for (int i = 0; i < sentence.length(); i++) {
+    if (sentence[i] == ',') {
+      if (partIndex == 6) { // Fix quality
+        gpsFix = (currentPart.toInt() > 0);
+      } else if (partIndex == 7) { // Satellites
+        satellites = currentPart.toInt();
+      } else if (partIndex == 2) { // Latitude
+        if (currentPart.length() >= 4) {
+          String deg = currentPart.substring(0, 2);
+          String min = currentPart.substring(2);
+          latitude = deg.toFloat() + (min.toFloat() / 60.0);
+        }
+      } else if (partIndex == 4) { // Longitude
+        if (currentPart.length() >= 5) {
+          String deg = currentPart.substring(0, 3);
+          String min = currentPart.substring(3);
+          longitude = deg.toFloat() + (min.toFloat() / 60.0);
+        }
+      }
+      currentPart = "";
+      partIndex++;
+    } else {
+      currentPart += sentence[i];
+    }
+  }
+}
+
+void readTemperature() {
+  // TMP1075 reading via I2C
+  Wire.beginTransmission(0x48); // TMP1075 address
+  Wire.write(0x00); // Temperature register
+  Wire.endTransmission();
+  
+  Wire.requestFrom(0x48, 2);
+  if (Wire.available() == 2) {
+    int16_t tempRaw = (Wire.read() << 8) | Wire.read();
+    temperature = (tempRaw >> 4) * 0.0625; // Convert to Celsius
+  }
+}
+
+void readLoadCell() {
+  // HX711 reading
+  if (digitalRead(HX711_DOUT) == LOW) {
+    loadValue = 0;
+    
+    for (int i = 0; i < 24; i++) {
+      digitalWrite(HX711_SCK, HIGH);
+      delayMicroseconds(1);
+      loadValue = (loadValue << 1) | digitalRead(HX711_DOUT);
+      digitalWrite(HX711_SCK, LOW);
+      delayMicroseconds(1);
+    }
+    
+    // Convert to weight (you'll need to calibrate this)
+    loadWeight = (loadValue - 0) / 2280.0; // Basic calibration
+  }
+}
+
+void tareLoadCell() {
+  // Set current reading as zero point
+  loadValue = 0;
+  loadWeight = 0;
+}
+
+void updateDisplay() {
+  clearDisplay();
+  setCursor(0, 0);
+  
+  switch(displayMode) {
+    case 0: // GPS
+      display.println("GPS COORDINATES");
+      display.println("===============");
+      if (gpsFix) {
+        display.print("Lat: ");
+        display.println(latitude, 6);
+        display.print("Lon: ");
+        display.println(longitude, 6);
+        display.print("Sats: ");
+        display.println(satellites);
+      } else {
+        display.println("No GPS Fix");
+        display.println("Searching...");
+      }
+      break;
+      
+    case 1: // Temperature
+      display.println("TEMPERATURE");
+      display.println("===========");
+      display.print("Temp: ");
+      display.print(temperature);
+      display.println(" C");
+      display.println("");
+      display.println("TMP1075 Sensor");
+      break;
+      
+    case 2: // Load Cell
+      display.println("LOAD CELL");
+      display.println("=========");
+      display.print("Weight: ");
+      display.print(loadWeight);
+      display.println(" kg");
+      display.println("");
+      display.println("Btn2: Tare");
+      break;
+      
+    case 3: // System Status
+      display.println("SYSTEM STATUS");
+      display.println("=============");
+      display.print("GPS: ");
+      display.println(gpsFix ? "Fixed" : "Searching");
+      display.print("Battery: ");
+      // Add battery reading if available
+      display.println("---%");
+      display.print("Uptime: ");
+      display.print(millis() / 60000);
+      display.println(" min");
+      break;
+  }
+  
+  updateDisplay();
+}
+
+// Simple OLED functions
+void initOLED() {
+  // Initialize OLED display
+  Wire.beginTransmission(0x3C);
+  // Add your OLED initialization sequence here
+}
+
+void clearDisplay() {
+  // Clear OLED display
+}
+
+void setCursor(int x, int y) {
+  // Set cursor position
+}
+
+void print(String text) {
+  // Print text to OLED
+}
+
+void println(String text) {
+  // Print line to OLED
+}
+
+void updateDisplay() {
+  // Update OLED display
+}
+
+void displayWelcomeScreen() {
+  clearDisplay();
+  setCursor(0, 0);
+  println("SURVIVAL TOOL");
+  println("=============");
+  println("Switch ON to");
+  println("start");
+  updateDisplay();
+}
+
+void displaySystemOn() {
+  clearDisplay();
+  setCursor(0, 0);
+  println("SYSTEM POWER ON");
+  updateDisplay();
+  delay(1000);
+}
+
+void displaySystemOff() {
+  clearDisplay();
+  setCursor(0, 0);
+  println("SYSTEM POWER OFF");
+  updateDisplay();
+  delay(1000);
+  displayWelcomeScreen();
+}
