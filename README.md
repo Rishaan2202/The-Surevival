@@ -19,8 +19,7 @@ So this is gonna be a project on a PCB, which is a PCBA (Yeah, cause I don't eve
 
 <h2> THE SCHEMATIC </h2>
 
-<img width="598" height="751" alt="image" src="https://github.com/user-attachments/assets/fcf8efd8-550c-46af-9daa-3785dc154e1f" />
-<br>
+[The Surevival (2).pdf](https://github.com/user-attachments/files/23728820/The.Surevival.2.pdf)
 
 <h3>It consists of 4 units, and These units further contain subunits which are lister below:</h3>
 <br>
