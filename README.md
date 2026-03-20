@@ -93,7 +93,16 @@ So this is gonna be a project on a PCB, which is a PCBA (Yeah, cause I don't eve
 
 <h2>Images</h2>
 <br>
-<h3>https://github.com/Rishaan2202/The-Surevival/blob/main/20251218_154827.webp</h3>
+<h3>
+  <img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/730cad98-5b95-4a1b-a7c7-45cedc908e39" />
+  <br>
+  <img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/b3afbb26-6ad9-4146-b52b-06ea19e15179" />
+  <br>
+  <img width="1156" height="867" alt="image" src="https://github.com/user-attachments/assets/04c7b1bf-bd92-4b43-a173-377c967fd5cc" />
+  <br>
+  <img width="867" height="1156" alt="image" src="https://github.com/user-attachments/assets/9f924c4e-6021-45d0-bdae-044036960e5c" />
+  <br>
+</h3>
 
 <h2>OUTRO!!!</h2>
 <br>
